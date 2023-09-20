@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(20, 20, 20);
+    font-family: system-ui, system-ui, sans-serif;
+
+}
+
+.container1{
+
+}
+
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 80px;
+}
+
+
+h1{
+
+    color: orange;
+    font-size: 65px;
+    position: relative;
+    left: 23%;
+    top: 22px;
+    display: inline;
+
+}
+
+h4{
+
+    color: hwb(36 4% 0%);
+}
+
+
+.texto1{
+
+    position: relative;
+    left: 14%;
+}
+.texto2{
+
+    position: relative;
+    left: 8%;
+}
+
+p{
+
+    color: white;
+    line-height: 1.9;
+}
+
+p.pnumero2{
+
+    line-height: 2.4;
+    position: relative;
+    left: -10%;
+}
+
+.icone1{
+    color: rgb(184, 157, 157);
+    position: relative;
+    width: 45px;
+    height: 45px;
+    top: 19px;
+    left: 35%;
+}
+
+.icone2{
+    color: rgb(84, 133, 106);
+    position: relative;
+    width: 45px;
+    height: 45px;
+    top: 19px;
+    left: 29%;
+}
+
+.icone3{
+ color: rgb(87, 88, 189);
+ position: relative;
+ width: 45px;
+ height: 45px;
+ left: 39%;
+}
+
+.icone4{
+    color: rgb(47, 44, 199);
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    top: 400px;
+    left: -10%;
+
+}

@@ -1,0 +1,304 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: rgb(20, 20, 20);
+    font-family: system-ui, system-ui, sans-serif;
+   height: 1780px;
+   width: 100%;
+   
+    
+}
+
+
+
+.container{
+    display: flex;
+    z-index: 10;
+    
+    
+}
+
+
+
+.logo{
+    
+    position: relative;
+    left: 14%;
+    top: 70px;
+
+}
+.telefone{
+
+    position: relative;
+    left: 33%;
+    top: 114px;
+    z-index: 5;
+    width: 240px;
+    animation: levantarEAbaxar 2s ease infinite alternate;
+}
+
+
+
+@keyframes levantarEAbaxar {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-48px);
+    }
+}
+
+
+
+
+
+#textodalogo{
+    color: rgb(255, 166, 0);
+    font-size: 115px;
+    text-align: center;
+    position: relative;
+    left: -9%;
+    top: -15px;
+}
+
+
+p{
+    color: white;
+    font-size: 23px;
+    position: absolute;
+    left: 21%;
+    top: 436px;
+}
+
+.partedecima{
+    position: absolute;
+    left: 10%;
+}
+
+#textoprincipal{
+
+    color: rgb(255, 166, 0);
+    font-size: 48px;
+    
+}
+
+.trabalhadores{
+    position: relative;
+    z-index: -7;
+    top: 48px;
+}
+
+.cabeçalho{
+    position: absolute;
+    background-color: rgb(48, 73, 100);
+    width: 1356px;
+    height: 50px;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    gap: 78px;
+
+}
+
+.itemmenu{
+
+    color: rgb(229, 255, 0);
+    text-decoration: none;
+    position: relative;
+    top: 15px;
+}
+
+.itemmenu5{
+
+    color: rgb(229, 255, 0);
+    text-decoration: none;
+    position: relative;
+    top: 15px;
+    left: 20%;
+}
+
+.itemmenu6{
+    color: rgb(229, 255, 0);
+    text-decoration: none;
+    position: relative;
+    top: 15px;
+    left: 20%;
+
+}
+
+
+.linha-separação{
+
+    position: relative;
+    top: 155px;
+    color: rgb(64, 241, 28);
+}
+
+/* em cima se encerra a página 1 do projeto */
+
+/* a baixo começa a página2 V V V  */
+
+.pag2{
+    position: absolute;
+    left: 11%;
+    top: 640px;
+    margin: 0;
+    
+}
+
+
+
+.textoprincipalpag2{
+
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    letter-spacing: 2px;
+    display: block;
+}
+
+
+
+
+ul{
+
+    position: relative;
+    left: 6%;
+    letter-spacing: 1px;
+    padding: 7xp;
+    row-gap: 55;
+    display: block;
+    margin-top: 35px;
+}
+
+li{
+    color: rgb(255, 166, 0);
+    font-size: 25px;
+
+}
+
+
+.pembaixodoli1{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 400px;
+    left: 1%;
+}
+.pembaixodoli2{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 1%;
+}
+
+
+
+.celular1pag2{
+    display: block;
+    position: absolute;
+    left: 150%;
+    top: 13px;
+    z-index: 5;
+    animation: levantarEAbaxar2 2s ease infinite alternate;
+}
+
+@keyframes levantarEAbaxar2 {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+
+
+.celular2pag2{
+
+    position: absolute;
+    z-index: -3;
+    left: 130%;
+    top: 8px;
+}
+
+
+.linha-separação2{
+    position: relative;
+    color: greenyellow;
+    top: 140px;
+    left: -28%;
+    width: 249%;
+}
+
+/* em cima se encerra o fim da página 2 */
+
+
+.pag3{
+
+    position: absolute;
+    top: 1218px;
+    left: 38%;
+
+}
+
+.imagempag3 span{
+    color: wheat;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 74px;
+    line-height: 32px;
+   text-align: center;
+   margin-top: -280px;
+}
+
+
+
+
+
+
+.imagempag3{
+    position: absolute;
+    z-index: -100;
+    left: -38%;
+    top: 33%;
+    opacity: 0.90;
+
+}
+/* em cima está para estilizar a div class imagempag3 */
+
+
+.imagemboneco{
+
+    width: 290px;
+    position: relative;
+    top: 30px;
+    left: -340px;
+    animation: levantarEAbaxar3 2s ease infinite alternate;
+}
+@keyframes levantarEAbaxar3 {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+
+
+
+
+
+::-webkit-scrollbar{
+
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    width: 10px;
+    background-color: orangered;
+}
